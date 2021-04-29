@@ -6,7 +6,7 @@
 This codebase was created to demonstrate a fully fledged fullstack application built with **[Nx monorepo](https://nx.dev), [Nestjs](https://nestjs.com) and [Angular](https://angular.io)** including CRUD operations, authentication, routing, pagination, and more.
 
 # Getting started
-*Prerequisites: To run this project locally, you need to have [Nodejs](https://nodejs.org/) and [MySQL](https://www.mysql.com/) installed on your operating system, remember to start your MySQl server also.*
+*Prerequisites: To run this project locally, you need to have [Nodejs](https://nodejs.org/) and Docker installed on your operating system*
 
 **Clone this project**
 
@@ -20,9 +20,8 @@ This codebase was created to demonstrate a fully fledged fullstack application b
 
 `npm install`
 
-**Update below configs in `ormconfig.js` file to your database configs**
-
-`host`, `port`, `username`, `password`, `database`
+**Start MySQL via Docker**
+`docker-compose up`
 
 **Run migrations**
 
