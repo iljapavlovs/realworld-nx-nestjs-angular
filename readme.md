@@ -21,6 +21,7 @@ This codebase was created to demonstrate a fully fledged fullstack application b
 `npm install`
 
 **Start MySQL via Docker**
+
 `docker-compose up`
 
 **Run migrations**
